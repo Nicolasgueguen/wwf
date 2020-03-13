@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+
+body {
+	background-color:#F5F5F5;
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+	width:100%;
+	height:600px;
+	background-image:url('coverpic.jpg');
+	background-size:cover;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	position:relative;
+	margin-bottom:0px;
+}
+
+h1 {
+	color:white;
+	margin:0;
+	font-size:40px;
+	font-weight: 500;
+    text-align: center;
+	letter-spacing: 2px;
+	position:relative;
+	left:50%;
+	top:50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+h2{
+	color:white;
+	margin:0;
+	font-size:15px;
+	font-weight:200;
+    text-align: center;
+	letter-spacing: 2px;
+	position:relative;
+	left:50%;
+	top:50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.nav {
+	width:100%;
+	height:80px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index: 30;
+	font-style: bold;
+}
+
+.nav ul {
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.nav ul li {
+	list-style-type:none;
+	display:inline-block;
+	line-height:80px;
+	margin: 0 40px;
+	font-size:13px;
+	font-weight:500;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	color:white;
+	position:relative;
+}
+
+.container {
+	width:1000px;
+	background:white;
+	padding: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom:0;
+	text-align: justify;
+	color: #222;
+	font-weight: 200;
+}
+
+h3{
+	color:#222;
+	margin-top:10px;
+	font-size:17px;
+	font-weight:500;
+    font-weight:bold;
+}
+
+
+
+.photos{
+	width:1000px;
+	margin:auto;
+	margin-bottom: 30px;
+}
+
+
+.photo {
+    width: 300px;
+    height: 250px;
+    background-image: url('pic3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+    position: relative;
+	margin-right: 5%;  
+	margin-top: 115px; 
+}
+
+.alt {
+ 	background-image: url('pic2.jpg');
+ 	
+}
+
+.next {
+   background-image: url('pic1.jpg');
+  margin-right: 0;
+
+}
+/* Début grandes images */
+.phototest {
+    width: 450px;
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+    position: relative;
+	margin-right: 5%;  
+	margin-top: 0px; 
+	background-image: url('pic4.jpg');
+}
+
+.phototest1 {
+	 background-image: url('pic5.jpg');
+	 width: 450px;
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+    position: relative;
+	margin-top: 0px;
+	float: right; 
+ 	
+}
+/* fin grandes images */
+.clear{
+	clear: both;
+}
+
+.logo{
+	padding-left: 0px;
+	vertical-align: middle;
+}
+.texte{
+	padding-top: 225px;
+	text-align: center;
+}
+.texte1{
+	padding-top: 250px;
+	text-align: center;
+}
+
+
+.save{
+	text-align: center;
+}
+.titre3{
+	text-align: center;
+	color:#222;
+}
+
+
+/* Début bouton animé */
+a {
+	text-decoration: none;
+	color: inherit;
+  }
+  
+  .cta {
+	position: relative;
+	margin: auto;
+	padding: 19px 22px;
+	transition: all 0.2s ease;
+  }
+  .cta:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	border-radius: 28px;
+	background: #ff864c;
+	width: 56px;
+	height: 56px;
+	transition: all 0.3s ease;
+  }
+  .cta span {
+	position: relative;
+	font-size: 10px;
+	line-height: 18px;
+	font-weight: 900;
+	letter-spacing: 0.25em;
+	text-transform: uppercase;
+	vertical-align: middle;
+  }
+  .cta svg {
+	position: relative;
+	top: 0;
+	margin-left: 10px;
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: #111;
+	stroke-width: 2;
+	transform: translateX(-5px);
+	transition: all 0.3s ease;
+  }
+  .cta:hover:before {
+	width: 100%;
+	background: #fe6a22;
+  }
+  .cta:hover svg {
+	transform: translateX(0);
+  }
+  .cta:active {
+	transform: scale(0.96);
+  }
+.boutonanim{
+	float: right;
+}	
+/* Fin bouton animé */
+
+/* Début bouton animé 2 */
+section.container{
+    min-width: 500px;
+    margin: 10% auto;
+    text-align: center;
+  }
+    a:hover{border-bottom: 1px solid #111;} 
+    h1{font-size: 2em; padding: 20px 0;}
+    p{
+      font-size: .75em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 20px 0;
+    }
+
+    button:hover{cursor: pointer}
+    button {
+      background: transparent; outline: none;
+      position: relative;
+      border: 2px solid #111;
+      padding: 15px 50px;
+      overflow: hidden;
+    }
+
+    button:hover:before{opacity: 1; transform: translate(0,0);}
+    button:before{
+      content: attr(data-hover);
+      position: absolute;
+      top: 1.1em; left: 0;
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 800;
+      font-size: .8em;
+      opacity: 0;
+      transform: translate(-100%,0);
+      transition: all .3s ease-in-out;
+    }
+      button:hover div{opacity: 0; transform: translate(100%,0)}
+      button div{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 800;
+        font-size: .8em;
+        transition: all .3s ease-in-out;
+	  }
+	  /* Fin bouton animé 2 */
+
+/* début footer */
+
+footer {
+	width: 100%;
+	position: absolute;
+	background-color: #222;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	margin-top: 120px;
+  }
+  
+  footer ul li {
+	display: inline;
+	padding: 11px;
+	font-size: large;
+	color: #666;
+  }
+  
+  footer ul {
+	float: left;
+	padding: 1px;
+	padding-left:25px ;
+  }
+  
+  .footer-droite {
+	float: right;
+	margin-right: 25px;
+  }
+  /*   Fin footer */
+
+   /*   début navigation */
+   div.container1
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	text-align: center;
+	padding-top : 50px
+}
+
+div.container1 a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 22px Raleway;
+    margin: 0px 25px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+	cursor: pointer;
+	
+}
+.brown
+{
+    background: none;
+}
+
+/* Highlight text out  */
+div.highlightTextOut a
+{
+    color: white; 
+}
+
+div.highlightTextOut a:before, div.highlightTextIn a:before
+{
+    position: absolute;
+    color: #FFF;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    overflow: hidden;
+    content: attr(alt);
+    transition: all 0.3s;
+    transform: scale(0.8);
+    opacity: 0;
+} 
+
+div.highlightTextOut a:hover:before, div.highlightTextIn a:hover:before
+{
+    transform: scale(1);
+    opacity: 1;
+}
